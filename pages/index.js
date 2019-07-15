@@ -1,7 +1,7 @@
 import Layout from '../components/MyLayout.js';
 import Link from 'next/link';
 import fetch from 'isomorphic-unfetch';
-import '../styles/sass/styles.scss';
+import '../styles/sass/index.scss';
 
 const Index = props => (
   <Layout>
