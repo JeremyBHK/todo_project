@@ -1,18 +1,16 @@
-import Link from 'next/link';
+// import Link from 'next/link';
+import Logo from '../img/profil.png';
 
 const linkStyle = {
   marginRight: 15
 };
 
 const Header = () => (
-  <div>
-    <Link href="/">
-      <a style={linkStyle}>Home</a>
-    </Link>
-    <Link href="/about">
-      <a style={linkStyle}>About</a>
-    </Link>
-  </div>
+  <header>
+    <h1>Bonjour TestName</h1>
+    <p>Voici toutes les tâches que<br/> vous pouvez réaliser</p>
+    <img src={Logo}  alt="logo" />
+  </header>
 );
 
 export default Header;
