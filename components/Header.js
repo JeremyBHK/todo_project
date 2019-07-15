@@ -1,5 +1,6 @@
 // import Link from 'next/link';
-import Logo from '../img/profil-svg.svg';
+import '../styles/sass/index.scss';
+import Logo from '../static/img/profil-svg.svg';
 
 const linkStyle = {
   marginRight: 15

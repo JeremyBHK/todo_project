@@ -4,8 +4,7 @@ import fetch from 'isomorphic-unfetch';
 import '../styles/sass/index.scss';
 
 const Index = props => (
-  <Layout>
-  </Layout>
+  <Layout />
 );
 
 Index.getInitialProps = async function() {
